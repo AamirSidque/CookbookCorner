@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipe Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cooking Recipe Web App</h1>
+        <input type="text" id="search" placeholder="Search for recipes...">
+        <div id="recipe-list" class="recipe-list"></div>
+    </div>
+
+    <div id="recipe-popup" class="recipe-popup hidden">
+        <div class="popup-content">
+            <span id="close-popup" class="close-popup">&times;</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-image" src="" alt="">
+            <h3>Ingredients</h3>
+            <ul id="popup-ingredients"></ul>
+            <h3>Instructions</h3>
+            <p id="popup-instructions"></p>
+            <h3>Time</h3>
+            <p id="popup-time"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Check out my GitHub: <a href="https://github.com/AamirSidque" target="_blank">github.com/your-github-username</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
